@@ -124,6 +124,21 @@ temperature values can be published periodically, while activity,
 health, and cooling status are published only when their values change.
 The milk-yield value is kept local and has no Adafruit IO feed.
 
+## Live IoT Dashboard
+
+The system provides remote livestock health monitoring through an Adafruit IO dashboard.
+
+[View Smart Livestock Monitoring Dashboard](https://io.adafruit.com/mihit_manoj/dashboards/livestock-health-monitor?kiosk=true)
+
+The dashboard displays:
+- Cow body temperature
+- Barn temperature
+- Cow activity
+- Health status
+- Peltier cooling status
+
+The dashboard enables remote monitoring of livestock health indicators and barn environmental conditions.
+
 ## Software and Libraries
 
 Developed for the Arduino IDE using the ESP32 board package.
